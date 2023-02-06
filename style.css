@@ -1,0 +1,39 @@
+#question {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 100px;
+    color: red;
+    font-family: Itim, cursive;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+button:not(#home) {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+#yes {
+    background-color: limegreen;
+    color: white;
+}
+
+#no {
+    background-color: red;
+    color: white;
+}
+#response {
+    font-size: 5em;
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
