@@ -20,5 +20,7 @@ window.onload = function () {
         const randomY = Math.random() * maxY;
         noBtn.style.left = randomX + "px";
         noBtn.style.top = randomY + "px";
+        // noBtn.style.left = Math.random() * window.innerWidth + "px";
+        // noBtn.style.top = Math.random() * window.innerHeight + "px";
     });
 };
