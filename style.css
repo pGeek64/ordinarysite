@@ -36,4 +36,16 @@ button:not(#home) {
     color: red;
     margin-top: 100px;
     font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+}
+
+.tenor-gif-embed {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
 }
